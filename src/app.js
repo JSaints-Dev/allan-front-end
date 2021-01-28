@@ -13,6 +13,7 @@ const ContainerContent = styled(MuiContainer)`
 `;
 
 const MainPage = lazy(() => import("pages/main"));
+const AboutPage = lazy(() => import("pages/about"));
 
 const App = () => {
   return (
@@ -21,7 +22,8 @@ const App = () => {
       <ContainerContent>
         <Suspense fallback={<LinearProgress />}>
           <Switch>
-            <Route path={routes.HOME} component={MainPage} />
+            <Route exact path={routes.HOME} component={MainPage} />
+            <Route path={routes.ABOUT} component={AboutPage} />
           </Switch>
         </Suspense>
       </ContainerContent>

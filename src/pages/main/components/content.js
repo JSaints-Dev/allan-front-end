@@ -9,13 +9,13 @@ const WrapperContent = styled.div`
   width: 70%;
 `;
 
-const Content = ({ label }) => {
+const ContentMain = ({ data }) => {
   return (
     <WrapperContent>
-      <H1 color={colors.purple}>{label.primary}</H1>
-      <H4 color={colors.purple}>{label.secondary}</H4>
+      <H1 color={colors.purple}>{data.primary}</H1>
+      <H4 color={colors.purple}>{data.secondary}</H4>
     </WrapperContent>
   );
 };
 
-export default Content;
+export default ContentMain;
