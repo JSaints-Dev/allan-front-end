@@ -1,19 +1,12 @@
-import styled from "styled-components";
+import { ContainerBodyCenterPage } from "ui";
 import { MAIN_PAGE } from "utils/constants";
 import { Content } from "./components";
 
-const ContainerMainPage = styled.div`
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-`;
-
 const Main = () => {
   return (
-    <ContainerMainPage>
+    <ContainerBodyCenterPage>
       <Content label={MAIN_PAGE.LABEL_CONTENT} />
-    </ContainerMainPage>
+    </ContainerBodyCenterPage>
   );
 };
 
