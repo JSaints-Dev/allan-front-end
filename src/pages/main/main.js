@@ -1,11 +1,11 @@
 import { ContainerBodyCenterPage } from "ui";
 import { MAIN_PAGE } from "utils/constants";
-import { Content } from "./components";
+import { ContentMain } from "./components";
 
 const Main = () => {
   return (
     <ContainerBodyCenterPage>
-      <Content label={MAIN_PAGE.LABEL_CONTENT} />
+      <ContentMain data={MAIN_PAGE.LABEL_CONTENT} />
     </ContainerBodyCenterPage>
   );
 };
