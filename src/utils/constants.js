@@ -1,5 +1,13 @@
 import * as routes from "routes";
+
 export const NAME_LOGO = "GG";
+
+export const MAIN_PAGE = {
+  LABEL_CONTENT: {
+    primary: "Welcome to Ger's Garage",
+    secondary: "We are the best brand in Ireland to fix and repair vehicles.",
+  },
+};
 
 export const LIST_LABELS_NAV = [
   {

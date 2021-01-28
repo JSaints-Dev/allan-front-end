@@ -1,7 +1,7 @@
-import { H1 } from "ui";
+import { H2 } from "ui";
 
 const Logo = ({ label }) => {
-  return <H1>{label}</H1>;
+  return <H2>{label}</H2>;
 };
 
 export default Logo;
